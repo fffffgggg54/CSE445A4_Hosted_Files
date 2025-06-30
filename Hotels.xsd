@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Hotels">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Hotel" type="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:complexType name="Hotel">
+    <xs:sequence>
+        <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="Address" type="Address" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="Rating">
+        <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+                <xs:minInclusive value="0.0"/>
+                <xs:maxInclusive value="10.0"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="Address">
+    <xs:sequence>
+        <!--Number and zip code stored as strings due to potential dashes in both fields-->
+        <!--see https://en.wikipedia.org/wiki/Address_format_by_country_and_area#United_States -->
+        <xs:element name="Number" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+</xs:complexType>
+
+</xs:schema> 
