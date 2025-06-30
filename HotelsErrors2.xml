@@ -1,0 +1,124 @@
+<Hotel>
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.6">
+        <Name>Rodeway Inn &amp; Suites</Name>
+        <Phone>785-540-4391</Phone>
+        <Address NearestAirport="Lincoln Municipal Airport">
+            <Number>130</Number>
+            <Street>E Highway 36</Street>
+            <City>Phillipsburg</City>
+            <State>KS</State>
+            <Zip>67661-9473</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.6">
+        <Name>Orleans Hotel</Name>
+        <Phone>308-473-4025</Phone>
+        <Address NearestAirport="Kearney Regional Airport">
+            <Number>101</Number>
+            <Street>E Pine St</Street>
+            <City>Orleans</City>
+            <State>NE</State>
+            <Zip>68966</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>The Phoenician</Name>
+        <Phone>+1 844-631-0595</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6000</Number>
+            <Street>East Camelback Road</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251-1949</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Hotel Valley Ho</Name>
+        <Phone>480-376-2600</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6850</Number>
+            <Street>East Main St</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>The Westin Kierland Resort &amp; Spa</Name>
+        <Phone>480-624-1000</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6902</Number>
+            <Street>E Greenway Pkwy</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85254</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>La Quinta Inn &amp; Suites by Wyndham Phoenix Scottsdale</Name>
+        <Phone>866-994-7735</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>8888</Number>
+            <Street>E Shea Blvd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85260</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>Fairmont Scottsale Princess</Name>
+        <Phone>+1 800-344-4758</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>7575</Number>
+            <Street>East Princess Drive</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85255-5802</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Scottsdale Camelback Resort</Name>
+        <Phone>480-947-3300</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>6302</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.1">
+        <Name>Orange Tree Resort</Name>
+        <Phone>480-948-6100</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>10601</Number>
+            <Street>N 56th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85254</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>Grand Hyatt Scottsdale Resort</Name>
+        <Phone>480-444-1234</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>7500</Number>
+            <Street>East Doubletree Ranch Road</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258-2044</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
