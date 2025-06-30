@@ -13,6 +13,8 @@
     </Hotel>
     <Hotel Rating="4.6">
         <Name>Rodeway Inn &amp; Suites</Name>
+        <!--Fake, no hotels had 2 phone numbers-->
+        <Phone>123-456-7890</Phone>
         <Phone>785-540-4391</Phone>
         <Address NearestAirport="Lincoln Municipal Airport">
             <Number>130</Number>
